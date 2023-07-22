@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 
-class AuthScreen extends StatefulWidget {
-  const AuthScreen({super.key});
+class AdminHomepage extends StatefulWidget {
+  const AdminHomepage({super.key});
 
   @override
-  State<AuthScreen> createState() => _AuthScreenState();
+  State<AdminHomepage> createState() => _AdminHomepageState();
 }
 
-class _AuthScreenState extends State<AuthScreen> {
+class _AdminHomepageState extends State<AdminHomepage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

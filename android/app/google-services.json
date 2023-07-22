@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "41225475621",
+    "project_id": "insurance-flutter-app",
+    "storage_bucket": "insurance-flutter-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41225475621:android:93c36ce3e7d58073d611cc",
+        "android_client_info": {
+          "package_name": "com.example.insurance_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41225475621-h3gsiqkoq0k9t3102sgfeq3klmaij4m3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW0vKRbkUn1EyPabxQP8-VHvaNALWxyu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41225475621-h3gsiqkoq0k9t3102sgfeq3klmaij4m3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "41225475621-n3jv7jve035kkm01936j7h6c4t3js9tv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.insuranceApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
