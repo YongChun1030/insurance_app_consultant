@@ -108,7 +108,7 @@ class _CustomerProfileState extends State<CustomerProfile> {
                                 width: 244,
                                 height: 130,
                                 decoration: BoxDecoration(
-                                  color: Colors.blue, // Change to your desired background color
+                                  color: Colors.white, // Change to your desired background color
                                   boxShadow: [
                                     BoxShadow(
                                       blurRadius: 4,
@@ -119,7 +119,7 @@ class _CustomerProfileState extends State<CustomerProfile> {
                                   borderRadius: BorderRadius.circular(20), // Change to your desired border radius
                                   shape: BoxShape.rectangle,
                                   border: Border.all(
-                                    color: Colors.red, // Change to your desired border color
+                                    color: Colors.black, // Change to your desired border color
                                     width: 2, // Change to your desired border width
                                   ),
                                 ),
@@ -293,7 +293,7 @@ class _CustomerProfileState extends State<CustomerProfile> {
                                 width: 244,
                                 height: 130,
                                 decoration: BoxDecoration(
-                                  color: Colors.blue, // Change to your desired background color
+                                  color: Colors.white, // Change to your desired background color
                                   boxShadow: [
                                     BoxShadow(
                                       blurRadius: 4,
@@ -304,7 +304,7 @@ class _CustomerProfileState extends State<CustomerProfile> {
                                   borderRadius: BorderRadius.circular(20), // Change to your desired border radius
                                   shape: BoxShape.rectangle,
                                   border: Border.all(
-                                    color: Colors.red, // Change to your desired border color
+                                    color: Colors.black, // Change to your desired border color
                                     width: 2, // Change to your desired border width
                                   ),
                                 ),
@@ -482,10 +482,10 @@ class _CustomerProfileState extends State<CustomerProfile> {
                             width: double.infinity,
                             height: 40,
                             decoration: BoxDecoration(
-                                color: Colors.green, // Change to your desired background color
+                                color: Colors.white, // Change to your desired background color
                                 borderRadius: BorderRadius.circular(20), // Change to your desired border radius
                                 border: Border.all(
-                                  color: Colors.blue, // Change to your desired border color
+                                  color: Colors.grey, // Change to your desired border color
                                   width: 4, // Change to your desired border width
                                 ),
                               ),
@@ -514,7 +514,7 @@ class _CustomerProfileState extends State<CustomerProfile> {
                                           'Chat',
                                           style: TextStyle(
                                             fontFamily: 'Plus Jakarta Sans', // Change 'YourDesiredFontFamily' to the desired font family name
-                                            color: Colors.red, // Change to your desired text color
+                                            color: Colors.green, // Change to your desired text color
                                             fontSize: 20, // Change to your desired font size
                                             fontWeight: FontWeight.bold, // You can change the font weight or remove this line if you don't want to specify it
                                           ),
@@ -536,21 +536,32 @@ class _CustomerProfileState extends State<CustomerProfile> {
                             style: ElevatedButton.styleFrom(
                               primary: Colors.blue, // Change to your desired button background color
                               onPrimary: Colors.white, // Change to your desired text color
-                              padding: EdgeInsets.symmetric(horizontal: 16),
+                              padding: EdgeInsets.zero,
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8),
                               ),
                             ),
-                            child: Text(
-                              'Review Uploaded Policy',
-                              style: TextStyle(
-                                fontFamily: 'Plus Jakarta Sans',
-                                fontSize: 16,
-                                fontWeight: FontWeight.w500,
+                            child: Ink(
+                              width: double.infinity,
+                              height: 48,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(8),
+                              ),
+                              child: Center(
+                                child: Text(
+                                  'Review Uploaded Policy',
+                                  style: TextStyle(
+                                    fontFamily: 'Plus Jakarta Sans',
+                                    color: Colors.white,
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.w500,
+                                  ),
+                                ),
                               ),
                             ),
                           ),
                         ),
+                        
                         Padding(
                           padding: EdgeInsets.only(bottom: 12),
                           child: ElevatedButton(

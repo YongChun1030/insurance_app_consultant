@@ -227,7 +227,7 @@ class _ConsultantHomePageState extends State<ConsultantHomePage> {
                                 textAlign: TextAlign.start,
                                 style: TextStyle(
                                   fontFamily: 'Readex Pro',
-                                  color: Colors.blue, // Change to your desired text color
+                                  color: Colors.black, // Change to your desired text color
                                   // You can add other properties like fontSize, fontWeight, etc., if needed
                                 ),
                                // animation: animationsMap['textOnPageLoadAnimation3']!,
@@ -306,7 +306,7 @@ class _ConsultantHomePageState extends State<ConsultantHomePage> {
                                                       'My Customers',
                                                       style: TextStyle(
                                                         fontFamily: 'Outfit',
-                                                        color: Colors.blue, // Change to your desired text color
+                                                        color: Colors.white, // Change to your desired text color
                                                         fontSize: 20, // Change to your desired font size
                                                         // You can add other properties like fontWeight, letterSpacing, etc., if needed
                                                       ),
@@ -393,7 +393,7 @@ class _ConsultantHomePageState extends State<ConsultantHomePage> {
                                                       'List of Assigned Old Policies',
                                                       style: TextStyle(
                                                         fontFamily: 'Outfit',
-                                                        color: Colors.blue, // Change to your desired text color
+                                                        color: Colors.white, // Change to your desired text color
                                                         fontSize: 20, // Change to your desired font size
                                                         // You can add other properties like fontWeight, letterSpacing, etc., if needed
                                                       ),
@@ -482,7 +482,7 @@ class _ConsultantHomePageState extends State<ConsultantHomePage> {
                                                       'Reviewed policies',
                                                       style: TextStyle(
                                                         fontFamily: 'Outfit',
-                                                        color: Colors.blue, // Change to your desired text color
+                                                        color: Colors.white, // Change to your desired text color
                                                         fontSize: 20, // Change to your desired font size
                                                         // You can add other properties like fontWeight, letterSpacing, etc., if needed
                                                       ),
@@ -570,7 +570,7 @@ class _ConsultantHomePageState extends State<ConsultantHomePage> {
                                                       'Rewards Redemption',
                                                       style: TextStyle(
                                                         fontFamily: 'Outfit',
-                                                        color: Colors.blue, // Change to your desired text color
+                                                        color: Colors.white, // Change to your desired text color
                                                         fontSize: 20, // Change to your desired font size
                                                         // You can add other properties like fontWeight, letterSpacing, etc., if needed
                                                       ),
@@ -659,7 +659,7 @@ class _ConsultantHomePageState extends State<ConsultantHomePage> {
                                                       'Invite friends',
                                                       style: TextStyle(
                                                         fontFamily: 'Outfit',
-                                                        color: Colors.blue, // Change to your desired text color
+                                                        color: Colors.white, // Change to your desired text color
                                                         fontSize: 20, // Change to your desired font size
                                                         // You can add other properties like fontWeight, letterSpacing, etc., if needed
                                                       ),

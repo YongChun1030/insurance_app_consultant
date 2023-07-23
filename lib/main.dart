@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:insurance_app/screens/admin/homepage.dart';
+import 'package:insurance_app/screens/consultant/homepage.dart';
+import 'package:insurance_app/screens/consultant/customerprofile.dart';
+import 'package:insurance_app/screens/consultant/reward.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,6 +17,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Flutter Demo',
         theme: ThemeData(primarySwatch: Colors.blue, fontFamily: 'Raleway'),
-        home: const AdminHomepage());
+        home: const Reward());
+        //home: const CustomerProfile());
+        //home: const ConsultantHomePage());
   }
 }
